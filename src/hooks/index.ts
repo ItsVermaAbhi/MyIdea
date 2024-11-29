@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { postURL } from "../config";
-import { Post } from "../Pages/Post";
+
 
 interface blog {
     id: string,
@@ -23,7 +23,7 @@ type BlogCardProps = {
     author: {
         name: string
     }
-    // date: Date
+  
 }
 
 

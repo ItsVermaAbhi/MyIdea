@@ -54,7 +54,7 @@ export function Post(){
         })
         .then(res=> {
             
-            
+            console.log(res)
             setTitle('')
             setContent('')
         }) : ""
