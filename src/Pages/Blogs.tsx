@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 export function Blogs() {
     const { blogs, loading } = useBlogs();
     const {name} = useUserDetail()
-    const [userName, setUserName] = useState("")
+    const [userName, setUserName] = useState("Anonymous")
 
   
 
