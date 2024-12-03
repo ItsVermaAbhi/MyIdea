@@ -39,7 +39,8 @@ export default function GoogleSignin({type}: {type: string}){
 
                             // IF TOKEN IS ALREADY PRESENT THEN WE SEND HIM TO BLOG WHERE TOKEN IS VARIFIES FIRST
                   
-                            {token.length>1 ? navigate('/blog'): ""}
+                            {token ? navigate('/blog'): alert("Error! If you already have account try go to sigin")}
+                             
                           
                           
                       }else if(type === "signin"){
